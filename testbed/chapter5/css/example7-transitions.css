@@ -1,0 +1,65 @@
+div[class^=box] {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.box1 {
+    background-color: red;
+    transition: width 2.15s ease-in;
+}
+
+.box1:hover {
+    width: 500px;
+    transition: width 4s steps(6, end);
+}
+
+.box2 {
+    background-color: green;
+    transition: transform 2.15s ease-in;
+}
+
+.box2:hover {
+    transform: scale(2);
+   transition:transform 4s steps(3,end)
+}
+
+.box3 {
+    background-color: aquamarine;
+    transition: transform 3s ease-out;
+}
+
+.box3:hover {
+    transform: rotate(180deg);
+}
+
+.box4 {
+    background-color: orange;
+    transition: transform 3s ease-in;
+}
+
+.box4:hover {
+    transform: translate(20px,20px);
+}
+
+.box5 {
+    background-color: yellow;
+}
+
+.box5:hover {
+    transform: skewX(-20deg);
+}
+
+.box6 {
+    background-color: brown;
+    transform: skewY(20deg);
+}
+
+.box7 {
+    background-color: aqua;
+    transition: transform 2s ease-in;
+}
+
+.box7:hover {
+    transform: rotate(90deg) scale(2) skewX(20deg);
+}

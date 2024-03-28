@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    gap:0px
+}
+
+header {
+    background-color: navy;
+}
+
+main {
+    background-color: #ffe7cc;
+}

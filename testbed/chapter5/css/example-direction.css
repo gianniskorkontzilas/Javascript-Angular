@@ -1,0 +1,19 @@
+.container {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: row;*/
+    flex-direction: row-reverse;
+}
+
+div[clas^=box] {
+    width: 60px;
+    height: 50px;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 50px;
+}

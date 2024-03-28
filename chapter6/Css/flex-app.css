@@ -1,0 +1,62 @@
+:root {
+    --wedding: #ffe8cc;
+    --navy: #002E94;
+    --blue: #083aa9;
+    --beige:#E1CEB5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    background-color: navy;
+    color: var(--wedding);
+    flex: 1 20%;
+}
+
+main {
+    background-color: #ffe7cc;
+    flex: 1 80%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.header-title {
+    margin-left: 1rem;
+}
+
+nav ul {
+/* background-color: aqua; */
+    margin-left: 1rem;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--wedding);
+}
+
+nav li a :hover {
+background-color: var(--blue);
+}
+
+
+
+@media (max-width:600px) {
+    .container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-template {
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.grid-gap {
+    gap: 10px;
+}
+
+.item-area {
+    /*grid-area: grid-row-start/ grid-column-start/ grid-column-end*/
+    grid-area: 1 / 2 / 5 / 6 ;
+}

@@ -1,0 +1,32 @@
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.hello-flex {
+    height: 100px;
+    width: 60%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.center-grid {
+    display: flex;
+    height: 200px;
+    background-color: lightgray;
+    /*align-items: center;
+    justify-items: center;*/
+    place-items: center;
+}
+
+.hello-grid {
+    height: 100px;
+    width: 60%;
+    border: 1px solid black;
+    text-align: center;
+    line-height:100px;
+}

@@ -1,0 +1,28 @@
+.container-grid1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows:60px 120px ;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+}
+
+.container-grid2 {
+    display: grid;
+    background-color: blue;
+    margin-bottom: 10px;
+    grid-template-columns: repeat(3, 1fr) 2fr;
+    /*grid-template-columns: 1fr 1fr 1fr 2fr; */
+    grid-template-rows: 60px;
+    grid-auto-rows: auto;
+}
+
+.container-grid3 {
+    display: grid;
+    background-color: orange;
+    grid-template-columns: repeat(2, 1fr) repeat(2, 2fr);
+    grid-template-rows: 60px auto;
+}
+
+div[class^=grid] {
+border: 1px solid red;
+}

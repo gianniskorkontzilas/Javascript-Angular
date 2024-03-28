@@ -1,0 +1,52 @@
+body {
+    background-color: lightgrey;
+}
+
+.container > h2:first-of-type {
+    color: green;
+}
+
+.container > p:first-of-type {
+    color: red;
+}
+
+ul > :first-child {
+    font-weight: bold;
+} 
+
+ul > :nth-child(3) {
+    color: green;
+}
+
+ul > :nth-child(odd) {
+    color :blue;
+}
+
+ul > :nth-child(even) {
+    color: orange;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:focus{
+    background-color: yellow;
+}
+
+a:hover {
+    background-color: gray;
+}
+
+a:active{
+    color: white;
+}
+
+.ol-text {
+    list-style-type: upper-alpha;
+}

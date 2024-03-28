@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #762124;
+    position:sticky;
+    top: 0;
+}
+
+.logo > img {
+    width: auto;
+    height:120px;
+    vertical-align: middle;
+}
+
+.navbar {
+    width: 700px;
+}
+
+.navbar > ul {
+    height: 120px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+.navbar a:active {
+    background-color: rgb(172,172,231);
+}
+
+.nav > li:not(:first-child) > a:hover {
+    background-color: rgb(116, 149, 206);
+}
+
+.dropdown {
+    position: relative;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+.dropdown-content {
+    display: flex;
+    width: 160px;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    padding-top: 50px;
+    background-color: #618cbd;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.dropdown-content > li {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+.dropdown-content > li:last-of-type {
+    border-bottom:none ;
+}
+
+.dropdown-content a {
+    display: block;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(152, 22, 50);
+}
+
+.dropdown > a {
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown:hover > ul {
+    display: flex;
+}
+
+.dropdown-content2 {
+    position: absolute;
+    left: 2352px;
+    display:flex ;
+    width: 160px;
+    top: 137px;
+    background-color: #618cbd;
+    list-style: none;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.dropdown-content2 > li {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+
+.dropdown-content2 a:hover {
+    background-color: rgb(40, 168, 83);
+}
+
+.dropdown-content2 a {
+    display: flex;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+}

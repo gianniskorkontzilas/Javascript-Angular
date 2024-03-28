@@ -1,0 +1,25 @@
+.container {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div[class^=box] {
+    width: 60px;
+    height: 50px;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 50px;
+}
+
+.box1 {
+    order: 1
+}
+
+.box9 {
+    order: -1;
+}
