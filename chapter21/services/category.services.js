@@ -15,7 +15,7 @@ async function findAll() {
 async function findOne(id) {
     const result = await dataSource
         .getRepository(CategoryEntity)
-        .createQueryBuilder
+        .createQueryBuilder()
         .select("category")
         .from(CategoryEntity, "category")
         .where("category.id = :id", {id: id })
